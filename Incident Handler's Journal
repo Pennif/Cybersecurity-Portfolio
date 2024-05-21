@@ -1,2 +1,16 @@
-Report
-
+Entry:1
+Date: 2024-05-21
+Description: First incident response requirement from google's cybersecurity certificate.
+             This mock-description is about a health care clinic that got ransomwared via phising
+             link. 
+The 5 w's:   Who: an employee clicked on a phising link sent by email. Further, there was an 
+             unethical hacker group who created the ransomware that was deployed.
+             What: Ransomware incident
+             Where: Health care company, US
+             When: Tuesday, 09:00
+             Why: An employee clicked on a phising link from an email. This downloaded a file which
+             gave the group access to the companies systems. The group promptly uploaded a ransomware
+             attack - money for a decyrption key.
+Additional Notes:
+             Please ensure that all employees are up to date on the latest cybersecurity phising threats
+             Payment may be made.

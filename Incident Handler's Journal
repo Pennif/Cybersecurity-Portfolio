@@ -1,7 +1,7 @@
 Entry:1
 Date: 2024-05-21
 Description: First incident response requirement from google's cybersecurity certificate.
-             This mock-description is about a health care clinic that got ransomwared via phising
+             This mock-attack is about a health care clinic that got ransomwared via phising
              link. 
 The 5 w's:   Who: an employee clicked on a phising link sent by email. Further, there was an 
              unethical hacker group who created the ransomware that was deployed.
@@ -14,3 +14,15 @@ The 5 w's:   Who: an employee clicked on a phising link sent by email. Further, 
 Additional Notes:
              Please ensure that all employees are up to date on the latest cybersecurity phising threats
              Payment may be made.
+Entry 2:
+Date: 2024-05-22
+Description: Second incident response requirement from google's cybersecurity certificate.
+             This mock-attack is about an employee who downloaded and opened a malicious file from
+             an email. The sender of the email was pretending to be interested in a role at the company
+             and the attachment had a known malicious hash.
+             Further evidence escalates the likelyhood of an attack (if the hash wasn't obvious enough):
+             the file contained a password protected .exe, and there were grammaritical mistakes in the
+             body of the email.
+             The course recommends the outcome to be " pass this problem onto a higher up analyst", which
+             is dissappointing.
+

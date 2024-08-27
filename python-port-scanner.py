@@ -43,13 +43,13 @@ if arg_end_port < arg_start_point:
   port_error= ("End port less than start point. Please ensure that the end port is greater than the start point".format(argv[0])
   print(port_error)
                
-# Here is the port scanner proper               
+# Here is the port scanner proper. To make it obvious, a list will be printed in terminal displaying all open ports              
 for port in range(int(arg_start_point),int(arg_end_port)):
   try:
     s = socket.socket(socket.AF_INET, sk.SOCK_STREAM)
     s.settimeout(1000)
     s.connect((arg_ip,port))
-    print('%d:OPEN' % (port))
+    print("OPEN PORT: {}".format(port))
     s.close
   except: continue
     

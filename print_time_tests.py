@@ -1,6 +1,7 @@
 
 # %%
-
+# This code is to test the speed of a printing while loop. It is used to help understand buffer limits on websservers; it will
+# help in the devolpment of fuzzers in the future
 
 import time
 import math

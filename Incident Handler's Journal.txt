@@ -34,21 +34,32 @@ Description: The following is a mock final report of a security incident invovli
               
               Executive Summary:
               
-              On December 28, 2022, at 7:20 p.m. PT, our organization encountered a security breach leading to unauthorized access to customer Personally Identifiable Information (PII) and financial data. This incident impacted approximately 50,000 customer records, resulting in an estimated $100,000 in direct costs and potential revenue loss. Following a thorough investigation, the incident has been resolved.
+              On December 28, 2022, at 7:20 p.m. PT, our organization encountered a security breach leading
+              to unauthorized access to customer Personally Identifiable Information (PII) and financial data. This incident 
+              impacted approximately 50,000 customer records, resulting in an estimated $100,000 in direct costs and 
+              potential revenue loss. Following a thorough investigation, the incident has been resolved.
               
               Timeline:
               
-              December 22, 2022, 3:13 p.m. PT: An employee received an email from an external address claiming successful theft of customer data, demanding a $25,000 cryptocurrency payment to prevent data release. The email was disregarded as spam and deleted.
-              December 28, 2022: The same employee received a second email from the same sender containing a sample of stolen customer data and a demand for $50,000.
-              Upon receipt of the second email, the employee alerted the security team, initiating the investigation phase between December 28 and December 31, 2022.
+              December 22, 2022, 3:13 p.m. PT: An employee received an email from an external address claiming successful theft 
+              of customer data, demanding a $25,000 cryptocurrency payment to prevent data release. The email was disregarded as 
+              spam and deleted.
+              December 28, 2022: The same employee received a second email from the same sender containing a sample of stolen 
+              customer data and a demand for $50,000.
+              Upon receipt of the second email, the employee alerted the security team, initiating the investigation phase between
+              December 28 and December 31, 2022.
               Investigation:
               
-              Upon notification, the security team promptly commenced an on-site investigation. They identified the root cause as a vulnerability within the e-commerce web application.
-              The vulnerability facilitated a forced browsing attack, enabling the attacker to access customer transaction data by modifying the order number in the URL string of a purchase confirmation page.
-              Analysis revealed that the attacker exploited this vulnerability to access and exfiltrate data from thousands of customer purchase confirmation pages.
+              Upon notification, the security team promptly commenced an on-site investigation. They identified the root cause as a 
+              vulnerability within the e-commerce web application.
+              The vulnerability facilitated a forced browsing attack, enabling the attacker to access customer transaction data by 
+              modifying the order number in the URL string of a purchase confirmation page.
+              Analysis revealed that the attacker exploited this vulnerability to access and exfiltrate data from thousands of customer
+              purchase confirmation pages.
+              
               Response and Remediation:
               
-              The organization, in collaboration with the public relations department, disclosed the breach to affected customers and provided complimentary identity protection services.
+              The organization, in collaboration with the public relations department, disclosed the breach to affected customers and provided complimentary                      identity protection services.
               A review of web server logs confirmed the source of the attack, characterized by an unusually high volume of sequentially listed customer orders.
               Recommendations:
               

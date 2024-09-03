@@ -3,7 +3,7 @@
 '''
 This is a little tool. It takes in a string (and a key) and spits out an encrypted message. If the key is left blank, it generates one
 It is meant to be a part of a larger project that allows you to send an encrpyted message and key across a LAN in a custom protocol,
-to another target. This custom protocol is meant to be an OSI level 7 protocol
+to another target. This custom protocol is meant to be an OSI level 7 protocol - application layer.
 
 TO DO:
 Encrpytion/Decryption: Add support for white spaces and capitals. Add options to encrypt the white space to another symbol
@@ -18,18 +18,16 @@ import random
 
 #This is the alphabet. We will be cycling through this often. You can change the size of the alphabet if needed in order to make the 
 #brute-force decryption more difficult.
-
-#further, this will not detect white spaces. This is a further implementation that needs doing.
 alpha = [chr(i) for i in range(ord('a'), ord('z') + 1)]
 
-#This is the main mechanism of encryption. It takes in the current index of the alphabet, then changes the index by the degree, If this
-#exceeds the length of the alphabet, we wrap back around to the start of the alphabet.
+#This is the main mechanism of encryption. It takes in the current index of the alphabet, then changes the index by the degree. If this
+#would exceed the length of the alphabet, it wraps back around to the start of the alphabet.
 #Example rotate(0, 1) ---> b; rotate(0, 2) ---> c; rotate(0, 27) ---> b 
 def rotate(index, degree):
     return alpha[(index + degree) % len(alpha)]
     
 #This is the bread of the program. This takes in a string and a seed (if no seed is provided, then one is generated for you)
-# and spits out an encrpyted message (and the seed)
+# and spits out an encrpyted message.
 class encrypt:
     #Declaring local variables
     def __init__(self, content, seed):
